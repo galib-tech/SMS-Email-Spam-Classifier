@@ -7,7 +7,7 @@
 ![NLP](https://img.shields.io/badge/NLP-NLTK-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sms-email-spam-classifier-pidtrcxmmirwmv6ymgfiz3.streamlit.app/)
 
 **A complete end-to-end NLP pipeline to classify emails as Spam or Ham using multiple ML algorithms.**
 
@@ -34,11 +34,11 @@ This project builds a **text classification system** that detects whether an ema
 
 ## 🌐 Live Demo
 
-🚀 **Try the app live:** [https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)
+🚀 **Try the live application here:**
 
-> **Deploy করার পরে** `your-app-name` এর জায়গায় আপনার actual Streamlit Cloud URL দিয়ে দিন।
->
-> Streamlit Cloud-এ deploy করতে: [share.streamlit.io](https://share.streamlit.io) → GitHub repo connect করুন → Done!
+### 👉 https://sms-email-spam-classifier-pidtrcxmmirwmv6ymgfiz3.streamlit.app/
+
+Test the classifier by entering any Email or SMS message and instantly see whether it is classified as **Spam** or **Ham** using the trained Machine Learning model.
 
 ---
 
@@ -295,7 +295,6 @@ nltk.download('stopwords')
 
 ## 🔮 Future Improvements
 
-- [ ] Deploy as a web app using Streamlit
 - [ ] Add deep learning model (LSTM / BERT)
 - [ ] Handle class imbalance with SMOTE
 - [ ] Add email header features (sender, subject line)
